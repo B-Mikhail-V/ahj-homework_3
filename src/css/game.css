@@ -1,0 +1,37 @@
+/* body {
+    cursor: url('../img/hamm.png'), auto;
+} */
+
+.pole {
+    width: 414px;
+}
+.grid {
+    cursor: url('../img/hamm.png'), auto;
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(4, 100px);
+    border: 4px solid black;
+    background-color: black;
+    grid-gap: 2px;
+}
+
+.grid-item {
+    display: block;
+    width: 110px;
+    height: 110px;
+    background-color:  #09a750;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/no_goblin.png');
+    background-size: cover;
+    /* object-fit: cover; */
+}
+
+.grid-item-on {
+    background-image: url('../img/goblin.png');
+    background-size: cover;
+}
+
+.grid-item-on:active {
+    cursor: url('../img/hamm_2.png') 20 20, auto;
+}
