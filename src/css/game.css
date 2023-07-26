@@ -19,7 +19,7 @@
     display: block;
     width: 110px;
     height: 110px;
-    background-color:  #09a750;
+    background-color:  #09a723;
     width: 100%;
     height: 100%;
     background-image: url('../img/no_goblin.png');
@@ -34,4 +34,8 @@
 
 .grid-item-on:active {
     cursor: url('../img/hamm_2.png') 20 20, auto;
+}
+
+.listResult{
+    list-style-type: none;
 }

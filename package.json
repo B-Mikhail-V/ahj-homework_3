@@ -5,11 +5,13 @@
   "repository": "https://github.com/B-Mikhail-V/ahj-homework_3.git",
   "author": "Mikail Bakulin <bakulin.mv@gmail.com>",
   "license": "MIT",
+  
   "scripts": {
     "build:prod": "cross-env NODE_ENV=production webpack --mode production",
     "build:dev": "cross-env NODE_ENV=development webpack --mode development",
     "start": "cross-env NODE_ENV=development webpack serve --mode development",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
   },
   "devDependencies": {
     "@babel/core": "^7.22.5",
